@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html, body {
+  font-family: "Ruslan Display", cursive;
+  font-size: 10px;
+  height: 100%;
+}
+
+header {
+  background-color: #f3ee68;
+  height: 7.15%;
+  padding: 15px 0;
+  text-align: center;
+  letter-spacing: 30px;
+  font-size: 2.2em;
+}
+
+.text-shadow {
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, .4);
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+#topbar {
+  background-color: #113A57;
+  height: 5%;
+  padding: 12px 50px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: 32px;
+}
+
+.topbar-item {
+  display: flex;
+}
+
+.numbers {
+  padding-left: 12px;
+}
+
+#progress-bar {
+  height: 2.45%;
+  width: auto;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background-color: #83f9a4;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#game-display {
+  height: 85.4%;
+}
+
+#game-display h2 {
+  background-color: #b0a7ea;
+  width: fit-content;
+  padding: 5px 20px;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 3em;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-family: 'Trade Winds', cursive;
+}
+
+#display {
+  height: 85.4%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rule-box {
+  background-color: #D9FAFC;
+  border-radius: 2px;
+  padding: 12px 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-style-box {
+  width: 10px;
+  height: 10px;
+  background-color: #54A7F3;
+  border-radius: 2px;
+  justify-items: center;
+  margin-top: 3px;
+}
+
+#default-display {
+  width: 410px;
+  height: auto;
+}
+
+#default-display li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 0px;
+}
+
+p {
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.button {
+  color: white;
+  background: #F33A3A;
+  font-size: 3em;
+  text-align: center;
+  border-radius: 2px;
+  margin: 20px 0;
+  padding: 8px 0;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.congratulations {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.congratulations h3 {
+  margin: 20px;
+}
+
+#next-level {
+  display: none;
+}
+
+@keyframes one {
+  0% {
+    left: 90px;
+    top: 180px;
+  }
+  33% {
+    left: 400px;
+    top: 180px;
+  }
+  66% {
+    left: 400px;
+    top: 30px;
+  }
+  100% {
+    left: 125px;
+    top: 25px;
+  }
+}
+
+@keyframes two {
+  0% {
+    left: 600px;
+    top: 90px;
+  }
+  33% {
+    left: 600px;
+    top: 25px;
+  }
+  66% {
+    left: 890px;
+    top: 70px;
+  }
+  100% {
+    left: 880px;
+    top: 180px;
+  }
+}
+
+@keyframes three {
+  0% {
+    left: 910px;
+    top: 170px;
+  }
+  33% {
+    left: 950px;
+    top: 75px;
+  }
+  66% {
+    left: 750px;
+    top: 120px;
+  }
+  100% {
+    left: 450px;
+    top: 170px;
+  }
+}
+
+@keyframes four {
+  0% {
+    left: 300px;
+    top: 90px;
+  }
+  33% {
+    left: 150px;
+    top: 25px;
+  }
+  66% {
+    left: 100px;
+    top: 160px;
+  }
+  100% {
+    left: 190px;
+    top: 100px;
+  }
+}
+
+@keyframes five {
+  0% {
+    left: 950px;
+    top: 45px;
+  }
+  33% {
+    left: 600px;
+    top: 115px;
+  }
+  66% {
+    left: 880px;
+    top: 190px;
+  }
+  100% {
+    left: 650px;
+    top: 120px;
+  }
+}
+
+@keyframes six {
+  0% {
+    left: 80px;
+    top: 40px;
+  }
+  33% {
+    left: 150px;
+    top: 135px;
+  }
+  66% {
+    left: 400px;
+    top: 90px;
+  }
+  100% {
+    left: 410px;
+    top: 35px;
+  }
+}

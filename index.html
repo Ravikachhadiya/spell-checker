@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spell Checker</title>
+  <iframe width="0" height="0" src="/music/Victory.mp3" frameborder="0" allowfullscreen>
+  </iframe>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-shadow">Spell Checker</h1>
+  </header>
+  <section class="text-shadow" id="topbar">
+    <div class="topbar-item" id="level-board">
+      <h2>Level</h2>
+      <h2 class="numbers" id="level">1</h2>
+    </div>
+    <div>
+      <div class="topbar-item" id="timer-board">
+        <img src="./images/timer-black-18dp.svg" alt="timer" class="drop-shadow" />
+        <h2 class="numbers" id="timer">0</h2>
+      </div>
+    </div>
+    <div>
+      <div class="topbar-item" id="score-board">
+        <h2>Score</h2>
+        <h2 class="numbers" id="score">0</h2>
+      </div>
+    </div>
+  </section>
+  <section id="progress-bar">
+    <div class="progress" id="progress"></div>
+  </section>
+  <section>
+    <div id="game-display"></div>
+  </section>
+  <section id="display">
+    <div id="default-display">
+      <div class="box-shadow text-shadow" id="rule-box">
+        <ul>
+          <li>
+            <div>
+              <div class="list-style-box box-shadow"></div>
+            </div>
+            <p>Choose a correct spelling.</p>
+          </li>
+          <li>
+            <div>
+              <div class="list-style-box box-shadow"></div>
+            </div>
+            <p>Choose a spelling before times up.</p>
+          </li>
+          <li>
+            <div>
+              <div class="list-style-box box-shadow"></div>
+            </div>
+            <p>
+              in first attempt you get 10 points, for second attempt 5 and
+              after second attempt 2.
+            </p>
+          </li>
+          <li>
+            <div>
+              <div class="list-style-box box-shadow"></div>
+            </div>
+            <p>Complete progress bar for go to next level.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="next-level">
+        <div class="text-shadow congratulations">
+          <div id="comment-box">
+            <h3 id="comment">Congratulations</h3>
+          </div>
+          <h3 id="message">Level completed</h3>
+          <h3 id="final-score">score 59</h3>
+        </div>
+      </div>
+      <div>
+        <h1 class="button box-shadow" id="start-btn">Start</h1>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
